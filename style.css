@@ -40,3 +40,26 @@ body{
   @apply text-yellow-500;
 
 }
+
+
+
+section{
+  @apply py-20 md:py-28;
+}
+h1{
+  @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+
+.btn{
+  @apply border border-yellow-500 bg-yellow-500  font-bold  rounded-md px-5 py-2 duration-300;
+}
+
+.btn:hover{
+  @apply opacity-90;
+}
+.btn_outline{
+  @apply bg-transparent;
+}
+.btn_outline:hover{
+  @apply bg-yellow-500 ;
+}
