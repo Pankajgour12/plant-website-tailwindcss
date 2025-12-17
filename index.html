@@ -1,19 +1,68 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant-website</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
 
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="./output.css" rel="stylesheet">
+
 </head>
 <body>
-  <h1 class="text-3xl font-bold  bg-green-500   underline   sm:bg-red-500 md:bg-blue-500 lg:bg-yellow-400 xl:bg-purple-500 font-Lobster text-white ">
-    Hello world!
-    pankaj
-  </h1>
+<!-- ~~~~~~~ Header ~~~~~~~ -->
+ <header id="navbar" class="bg-green-900 fixed w-full top-0 left-0 z-50">
+  <nav class="container flex items-center justify-between h-16 sm:h-20 ">
+    <div class="font-Lobster sm:text-2xl ">IndorePlants.</div>
 
-  <p class="font-Jost">This paragraph uses the Jost font.</p>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officia dicta nobis distinctio delectus suscipit, iure vero porro aperiam culpa alias consequatur nam excepturi necessitatibus numquam nisi. Rem, repellendus vel.</p>
+    <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-900/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+      <ul class="flex flex-col items-center gap-8 lg:flex-row">
+        
+
+         <li>
+          <a href="#home" class="link">Home</a>
+        </li>
+
+         <li>
+          <a href="#about" class="link">About</a>
+        </li>
+
+         <li>
+          <a href="#popular" class="link">Popular</a>
+        </li>
+
+         <li>
+          <a href="#review" class="link">Review</a>
+        </li>
+
+      </ul>
+
+      <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden" >
+        <img src="/assets/img/leaf-1.png" alt="leaf_image" class="w-32">
+      </div>
+
+      <div class="absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden">
+        <img src="/assets/img/leaf-2.png" alt="leaf_image" class="w-32">
+      </div>
+
+      
+
+
+    </div>
+    <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+      <i class="ri-menu-4-line " id="humburger"></i>
+
+      </div>
+  </nav>
+
+ </header>
+
+
+
+  <script src="script.js"></script>
 </body>
 </html>
