@@ -27,7 +27,7 @@ body {
  width: 100%;
 }
 body{
-@apply bg-green-900 text-white tracking-wider ;
+@apply bg-green-950 text-white tracking-wider ;
 
 }
 
