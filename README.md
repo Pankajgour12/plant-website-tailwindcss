@@ -249,7 +249,7 @@ This project is a result of that mindset.
 
 <p align="center">
   <strong>
-    「 This is not the final form. 」
+    😊😊😊
   </strong>
 </p>
 
