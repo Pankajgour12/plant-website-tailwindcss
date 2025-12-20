@@ -20,6 +20,25 @@ navlinks.forEach(link => {
 
 
 
+/* Scroll-Up */
+
+const scrollup = ()=>{
+    const scrollupbtn = document.getElementById('scroll-up');
+    if(this.scrollY >=250) {
+        scrollupbtn.classList.remove('-bottom-1/2');
+        scrollupbtn.classList.add('bottom-4');
+}else{
+     scrollupbtn.classList.add('-bottom-1/2');
+        scrollupbtn.classList.remove('bottom-4');
+}
+}
+    
+
+
+
+window.addEventListener('scroll', scrollup);
+
+
 
 
 
